@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Fascinate&family=Titan+One&display=swap');
+
+:root{
+    --title : 'Titan One', cursive;
+}
+
+* {
+    margin: 0;
+}
+
+.nav-bar {
+    text-shadow: 4px 1px  #161616;
+    color: #D9AEA8;
+    /* color: 7A0606, D9AEA8; */
+    background-color: #7A0606;
+    height: 60px;
+    font-family: var(--title);
+    font-size: 2em;
+    display: flex;
+}
+.nav-bar span {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+.menu{
+    position: absolute;
+    margin: 15px 0 0 10px;
+    background-color: transparent;
+    border: none;
+}
+.bio{
+    background-color: #D9AEA8;
+}
